@@ -1,3 +1,6 @@
+#ifndef SRC_HPP
+#define SRC_HPP
+
 #include<algorithm>
 
 void Init(int **&p,int n){//初始化，n为vector的个数,传入的p指向nullptr
@@ -42,3 +45,5 @@ void Clear(int **&p,int n){//回收空间
     delete[] p;
     p = nullptr;
 }
+
+#endif
